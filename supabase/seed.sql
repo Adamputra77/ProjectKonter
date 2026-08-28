@@ -227,7 +227,7 @@ $$;
 -- SETTING TOKO
 -- ----------------------------------------------------------------------------
 insert into public.store_settings (id, store_name, address, phone, receipt_footer)
-values (1, 'TOKO ADAM CELL', 'Jl. Contoh No. 123, Kota', '08xxxxxxxxxx',
+values (1, 'TOKO PAK KUSNO', 'Jl. Contoh No. 123, Kota', '08xxxxxxxxxx',
         'Terima kasih sudah berbelanja! Barang yang sudah dibeli tidak dapat dikembalikan.')
 on conflict (id) do update set
   store_name = excluded.store_name,

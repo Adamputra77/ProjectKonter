@@ -98,7 +98,7 @@ export function AppShell({ user, children }: { user: AppUser; children: React.Re
           <Store className="h-5 w-5 text-primary" />
           <div className="leading-tight">
             <p className="text-sm font-semibold">Konter POS</p>
-            <p className="text-[11px] text-muted-foreground">Kasir Toko HP</p>
+            <p className="text-[11px] text-muted-foreground">TOKO PAK KUSNO</p>
           </div>
         </div>
         <div className="flex-1 overflow-y-auto py-4">
